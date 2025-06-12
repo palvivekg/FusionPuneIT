@@ -3,9 +3,20 @@ public class LogicalOperatorDemo{
 	int num1 = 10, num2 =20;
 	System.out.println("Logical AND && :");
 	System.out.println("Logical Operator Demo!!!");
-	System.out.println(num1+"< 10 &&"+num2+"<10:"+(num1<10 && num2<10 ));
-	System.out.println(num1+"<= 10 &&"+num2+"<10:"+(num1<=10 && num2<10 ));
-	System.out.println(num1+"< 10 &&"+num2+">10:"+(num1<10 && num2>10 ));
-	System.out.println(num1+"<= 10 &&"+num2+">10:"+(num1<=10 && num2>10 ));
+	System.out.println(num1+" < 10 &&" +num2+" <10:"+(num1<10 && num2<10 ));
+	System.out.println(num1+" <= 10 && "+num2+"<10:"+(num1<=10 && num2<10 ));
+	System.out.println(num1+" < 10 &&" +num2+">10:"+(num1<10 && num2>10 ));
+	System.out.println(num1+" <= 10 && "+num2+">10:"+(num1<=10 && num2>10 ));
+System.out.println("---------------------------");
+System.out.println("Logical OR || : ");
+System.out.println(num1+" < 10 ||" +num2+" <10:"+(num1<10 || num2<10 ));
+System.out.println(num1+" <= 10 || "+num2+"<10:"+(num1<=10 || num2<10 ));
+System.out.println(num1+" < 10 ||" +num2+">10:"+(num1<10 ||num2>10 ));
+	System.out.println(num1+" <= 10 ||"+num2+">10:"+(num1<=10 ||num2>10 ));
+	System.out.println("-----------------------------");
+	System.out.println("Logical NOT ! :");
+	System.out.println("!("+num1+"<10) : "+!(num1 < 10));
+	System.out.println("!("+num1+"<=10) : "+!(num1 <= 10));
+	
 	}
 }
